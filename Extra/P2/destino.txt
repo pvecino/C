@@ -1,0 +1,5 @@
+Programa una aplicación en C que copia el contenido del
+fichero origen en un nuevo fichero
+destino. Crea con tu editor favorito el fichero origen y rellenalo
+con varios caracteres. Prueba
+tu programa copiador con ficheros de origen grandes como canciones o videos.
