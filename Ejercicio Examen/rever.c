@@ -92,6 +92,7 @@ int main(int argc, char const *argv[]) {
          write(pipe_rev[1], buffer, read_bytes);
          write(pipe_wc[1], buffer, read_bytes);
       } while(read_bytes>0);
+      close(frev[1]);//ERROR: esto me faltaba
    }
    exit(EXIT_SUCCESS);
 }
